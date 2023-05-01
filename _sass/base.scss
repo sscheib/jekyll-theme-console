@@ -11,6 +11,7 @@ $base-line-height:     1.5 !default;
 $container-width:      90% !default;
 $container-max-width:  900px !default;
 $bg-color: var(--background-color);
+$text-color: var(--text-color);
 
 /**
  * Global
@@ -140,7 +141,7 @@ table {
   margin-bottom: auto;
   width: 100%;
   text-align: auto;
-  color: lighten(var(--text-color), 18%);
+  color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid #676464;
   tr {
