@@ -136,7 +136,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
  * Tables
  */
 table {
-  margin-bottom: $spacing-unit;
+  margin-bottom: auto;
   width: 100%;
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
