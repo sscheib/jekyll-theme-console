@@ -138,7 +138,7 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 table {
   margin-bottom: auto;
   width: 100%;
-  text-align: $table-text-align;
+  text-align: auto;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
   border: 1px solid $grey-color-light;
