@@ -138,24 +138,24 @@ pre { background-color: var(--background-color);  border: none;  padding: 0;  ma
 table {
   margin-bottom: auto;
   width: 100%;
-  text-align: auto;
-  color: lighten($text-color, 18%);
+  text-align: left !default;
+  color: lighten(var(--text-color), 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid #676464;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten(#676464, 6%);
     }
   }
   th, td {
     padding: ($spacing-unit / 3) ($spacing-unit / 2);
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: lighten(#676464, 3%);
+    border: 1px solid darken(#676464, 4%);
+    border-bottom-color: darken(#676464, 12%);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid #676464;
   }
 }
